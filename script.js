@@ -21,81 +21,80 @@ function firstQuestion(event) {
     document.getElementById('q-1').style.display = 'block';
 }
 
-// function secondQuestion(event){
-//     event.preventDefault();
-//     document.getElementById('q-1').style.display = 'none';
-//     document.getElementById('q-2').style.display = 'block';
-//     if (timer <= 0){
-//         gameOver();
-//         console.log(timer)
-//     }
-// }
-// function thirdQuestion(event){
-//     // event.preventDefault();
-//     document.getElementById('q-2').style.display = 'none';
-//     document.getElementById('q-3').style.display = 'block';
-//     if (timer <= 0){
-//         gameOver();
-//         console.log(timer)
-//     }
-// }
-// function forthQuestion(event){
-//     event.preventDefault();
-//     document.getElementById('q-3').style.display = 'none';
-//     document.getElementById('q-4').style.display = 'block';
-//     if (timer <= 0){
-//         gameOver();
-//         console.log(timer)
-//     }
-// }
-// function fifthQuestion(event){
-//     event.preventDefault();
-//     document.getElementById('q-4').style.display = 'none';
-//     document.getElementById('q-5').style.display = 'block';
-//     if (timer <= 0){
-//         gameOver();
-//         console.log(timer)
-//     }
-// }
-// function sixthQuestion(event){
-//     event.preventDefault();
-//     document.getElementById('q-5').style.display = 'none';
-//     document.getElementById('q-6').style.display = 'block';
-//     if (timer <= 0){
-//         gameOver();
-//         console.log(timer)
-//     }
-// }
-// function seventhQuestion(event){
-//     event.preventDefault();
-//     document.getElementById('q-6').style.display = 'none';
-//     document.getElementById('q-7').style.display = 'block';
-//     if (timer <= 0){
-//         gameOver();
-//         console.log(timer)
-//     }
-// }
-// function eigthtQuestion(event){
-//     event.preventDefault();
-//     document.getElementById('q-7').style.display = 'none';
-//     document.getElementById('question-8').style.display = 'block';
-// }
-// function ninthQuestion(event){
-//     event.preventDefault();
-//     document.getElementById('q-8').style.display = 'none';
-//     document.getElementById('q-9').style.display = 'block';
-// }
-// function tenthQuestion(event){
-//     event.preventDefault();
-//     document.getElementById('q-9').style.display = 'none';
-//     document.getElementById('q-10').style.display = 'block';
-// }
+function secondQuestion(event) {
+    event.preventDefault();
+    document.getElementById('q-1').style.display = 'none';
+    document.getElementById('q-2').style.display = 'block';
+    if (timer <= 0) {
+        gameOver();
+        console.log(timer)
+    }
+}
+function thirdQuestion(event) {
+    document.getElementById('q-2').style.display = 'none';
+    document.getElementById('q-3').style.display = 'block';
+    if (timer <= 0) {
+        gameOver();
+        console.log(timer)
+    }
+}
+function forthQuestion(event) {
+    event.preventDefault();
+    document.getElementById('q-3').style.display = 'none';
+    document.getElementById('q-4').style.display = 'block';
+    if (timer <= 0) {
+        gameOver();
+        console.log(timer)
+    }
+}
+function fifthQuestion(event) {
+    event.preventDefault();
+    document.getElementById('q-4').style.display = 'none';
+    document.getElementById('q-5').style.display = 'block';
+    if (timer <= 0) {
+        gameOver();
+        console.log(timer)
+    }
+}
+function sixthQuestion(event) {
+    event.preventDefault();
+    document.getElementById('q-5').style.display = 'none';
+    document.getElementById('q-6').style.display = 'block';
+    if (timer <= 0) {
+        gameOver();
+        console.log(timer)
+    }
+}
+function seventhQuestion(event) {
+    event.preventDefault();
+    document.getElementById('q-6').style.display = 'none';
+    document.getElementById('q-7').style.display = 'block';
+    if (timer <= 0) {
+        gameOver();
+        console.log(timer)
+    }
+}
+function eigthtQuestion(event) {
+    event.preventDefault();
+    document.getElementById('q-7').style.display = 'none';
+    document.getElementById('q-8').style.display = 'block';
+}
+function ninthQuestion(event) {
+    event.preventDefault();
+    document.getElementById('q-8').style.display = 'none';
+    document.getElementById('q-9').style.display = 'block';
+}
+function tenthQuestion(event) {
+    event.preventDefault();
+    document.getElementById('q-9').style.display = 'none';
+    document.getElementById('q-10').style.display = 'block';
+}
 
 
 /*
 Highescore function
 */
-function highscore(){
+function highscore() {
     document.getElementById('q-1').style.display = 'none';
 }
 
