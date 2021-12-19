@@ -27,20 +27,46 @@
     </header>
     <main>
         <h3 class="m-5 pt-5 row">
-            Start Quiz here!
+            About the Quiz:
         </h3>
         <section>
-            <p class="m-5">
+            <p class="m-5 row" style="background-color:rgb(188, 224, 212)">
                 This is a timed quiz on JavaScript fundamentals! Do your best to pick the right answer.
-                Wrong answers will subtract your time by ten seconds.Good Luck!
+                Wrong answers will subtract your time by ten seconds. Good Luck!
             </p>
         </section>
+
+        <button type="button" class="btn btn-primary btn-md" id="start-button">
+            Start!
+        </button>
+
+        <h5 style="display: none" id="correct-answer">Correct Answer </h5>
+        <h5 style="display: none" id="incorrect-answer">Wrong Answer </h5>
 
         <!-- questions -->
         <section>
 
             <!-- question no 1-->
-            <div>
+            <div class="pl-3 pt-3 h-75 w-75 pb-5 rounded" id="q-1" style="background-color:rgb(168, 193, 230); display: none">
+                <p>
+                    What are variables used for in JavaScript Programs?
+                </p>
+                <div>
+                    <input type="radio" id="1-correct" name="answer" value="1">
+                    <label for="1-correct"> Storing numbers, dates, or other values</label>
+                </div>
+                <div>
+                    <input type="radio" id="1-incorrect" name="answer" value="2">
+                    <label for="1-incorrect"> Varying randomly</label>
+                </div>
+                <div>
+                    <input type="radio" id="1b-incorrect" name="answer" value="3">
+                    <label for="1b-incorrect"> Causing high-school algebra flashbacks</label>
+                </div>
+                <div>
+                    <input type="radio" id="1c-incorrect" name="answer" value="3">
+                    <label for="1c-incorrect"> None of the above</label>
+                </div>
 
             </div>
             <!-- question no 2-->
